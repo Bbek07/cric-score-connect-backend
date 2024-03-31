@@ -38,7 +38,7 @@ class AuthController extends Controller
                 'dob' => $user->dob,
                 'phone' => $user->phone,
                 'address' => $user->address,
-                'profile_photo_path' => $user->profile_photo_path, // Assuming the avatar is stored as a URL
+                'profile_photo_path' => $user->profile_photo_path,
                 'playerType' => $user->playerType,
             ];
 
